@@ -50,6 +50,11 @@
     .size-res img{
         width: 75% !important;
     }
+
+    .after-slider{
+        padding: 0 30px 60px 30px !important;
+    }
+
 }
 
 
@@ -71,6 +76,18 @@
 
     .items {
         font-size: 10px;
+    }
+
+    .text{
+        padding: 0;
+    }
+
+    .p-class{
+        padding-right: 0;
+    }
+    
+    .button{
+        margin-top: 20px;
     }
 
 

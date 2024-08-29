@@ -18,39 +18,48 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
 
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="./js/jquery.event.move.js" type="text/javascript"></script>
+    <script src="./js/jquery.twentytwenty.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="css/twentytwenty.css"/>
+
+    <script>
+        $(function () {
+      $(".after-sliderc").twentytwenty({ default_offset_pct: 0.5 })
+    })
+    </script>
+
 </head>
 
 <body>
-    <div style="width: 100%; position: fixed; top: 0%; z-index: 99;">
-        <header>
-            <div class="header-top">
-                <div class="container">
-                    <div class="row row-one">
-                        <div class="w-100 d-flex flex-and">
-                            <div class="header-items w-75 d-flex align-items-center justify-content-end">
-                                <span class="items items-res"><a href="tel:+917065180864"> <i
-                                            class="fa fa-phone fa-style ">
-                                        </i>+917065180864</a></span>
-                                <span class="items items-res"><a href="mailto:shivamtiwari1234550@gmail.com"><i
-                                            class="fa fa-envelope fa-style"></i>shivamtiwari1234550@gmail.com</a></span>
-                                <span class="items"> <i class="fa fa-star-o fa-style"></i>India’s Most Trusted
-                                    HairTransplant &Laser Clinic</span>
-                            </div>
+    <header style="position: sticky; top: 0%; z-index: 999;">
+        <div class="header-top">
+            <div class="container">
+                <div class="row row-one">
+                    <div class="w-100 d-flex flex-and">
+                        <div class="header-items w-75 d-flex align-items-center justify-content-end">
+                            <span class="items items-res"><a href="tel:+917065180864"> <i class="fa fa-phone fa-style ">
+                                    </i>+917065180864</a></span>
+                            <span class="items items-res"><a href="mailto:shivamtiwari1234550@gmail.com"><i
+                                        class="fa fa-envelope fa-style"></i>shivamtiwari1234550@gmail.com</a></span>
+                            <span class="items"> <i class="fa fa-star-o fa-style"></i>India’s Most Trusted
+                                HairTransplant &Laser Clinic</span>
+                        </div>
 
-                            <div class="header-items-two d-flex align-items-center justify-content-end">
-                                <span>
-                                    <p>Contact Us</p>
-                                </span>
-                                <span><i class="fa-brands fa-instagram fa-style-two"></i></span>
-                                <span><i class="fa-brands fa-facebook-f fa-style-two"></i></span>
-                                <span><i class="fa-brands fa-linkedin-in fa-style-two"></i></span>
-                                <span><i class="fa-brands fa-youtube fa-style-two"></i></span>
-                            </div>
+                        <div class="header-items-two d-flex align-items-center justify-content-end">
+                            <span>
+                                <p>Contact Us</p>
+                            </span>
+                            <span><i class="fa-brands fa-instagram fa-style-two"></i></span>
+                            <span><i class="fa-brands fa-facebook-f fa-style-two"></i></span>
+                            <span><i class="fa-brands fa-linkedin-in fa-style-two"></i></span>
+                            <span><i class="fa-brands fa-youtube fa-style-two"></i></span>
                         </div>
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
         <!-- navbar start -->
 
         <nav>
@@ -123,7 +132,10 @@
                 </li>
             </ul>
         </div>
-    </div>
+
+    </header>
+
+
 
 
 
@@ -187,7 +199,7 @@
     <div class="background-image">
         <div class="container">
             <div class="row">
-                <div class="col-md-6" style="padding: 100px 16px;">
+                <div class="col-12 col-lg-6" style="padding: 70px 16px 50px 16px;">
                     <img src="./images/Hrors-Red.png" alt="" width="50" style="padding-bottom: 10px;">
                     <h1 class="h-six">
                         Rejuvenate Your Spirit as You ‘Love Yourself’
@@ -201,21 +213,27 @@
                     <h3 class="h-three">
                         As featured in
                     </h3>
-                    <div class="d-flex justify-content-around size-res py-4 px-2">
+                    <div class="d-flex justify-content-around size-res py-4 py-lg-5 px-2">
                         <div class="size-res"><img src="images/times.jpg" alt="" class="w-100"></div>
                         <div class="size-res"><img src="images/city.jpg" alt="" class="w-100"></div>
                         <div class="size-res"><img src="images/republic.jpg" alt="" class="w-100"></div>
                         <div class="size-res"><img src="images/cosmopolitan.jpg" alt="" class="w-100"></div>
                     </div>
-                    <button class="btn">Book Appointment</button>
-
-
+                    <div class="button">
+                        <button class="btn">Book Appointment</button>
+                    </div>
                 </div>
-                <!-- <div class="col-md-6"> -->
+
+                <div class="col-12 col-lg-6  after-slider">
+                    <div class="after-sliderc">
+                        <img src="./images/after1.jpg" />
+                        <img src="./images/before1.jpg" />
+                    </div>
+                </div>
+
 
             </div>
         </div>
-    </div>
     </div>
 
     <div class="container">
@@ -225,7 +243,7 @@
                     <img src="./images/Hrors-Red.png" alt="" width="50" style="display: block; margin: auto;">
                 </div>
                 <div>
-                    <h1 style="font-size: 44px;color: #cd9481;text-align: center;font-family: auto;letter-spacing: 2px">
+                    <h1 style="color: #cd9481;text-align: center;font-family: auto;letter-spacing: 2px">
                         Dermatology Treatment Services</h1>
                 </div>
                 <p style="text-align: center;">Radiate your best self with our world class treatments &amp; procedures
@@ -292,7 +310,8 @@
                             </div>
                             <div class="hover-content">
                                 <span class="text-light">We offer a range of advanced therapies, including laser
-                                    treatments, chemical peels, and targeted skincare regimens, according to your skin needs.</span>
+                                    treatments, chemical peels, and targeted skincare regimens, according to your skin
+                                    needs.</span>
                             </div>
                         </div>
                     </div>
@@ -326,7 +345,8 @@
                             </div>
                             <div class="hover-content">
                                 <span class="text-light">Our experienced professionals skillfully insert fine
-                                    threads to lift and tighten sagging skin, reducing wrinkles and enhancing facial contours.</span>
+                                    threads to lift and tighten sagging skin, reducing wrinkles and enhancing facial
+                                    contours.</span>
                             </div>
                         </div>
                     </div>
@@ -336,11 +356,155 @@
         </div>
     </div>
 
-    
+
+    <!-- footer section start -->
+
+    <footer class="main-footer">
+        <div class="container">
+            <!--Widgets Section-->
+            <div class="widgets-section">
+                <div class="row clearfix">
+
+                    <!--Column-->
+                    <div class="big-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="row clearfix">
+
+                            <!--Footer Column-->
+                            <div class="footer-column col-lg-7 col-md-6 col-sm-12">
+                                <div class="footer-widget about-widget">
+                                    <div class="logo">
+                                        <a href="#"><img
+                                                src="https://drharorswellness.com/wp-content/uploads/2023/06/light-logo.png"
+                                                alt="" /></a>
+                                    </div>
+                                    <div class="text">
+                                        <p>
+                                            At the heart of our approach, we prioritize our patients, aiming to provide
+                                            world-class, comprehensive practices and procedures that meet international
+                                            standards. Our commitment to compassion, transparency, and trust ensures
+                                            that we serve as your dedicated partners in achieving your desired
+                                            self-image and optimal well-being. With a relentless focus on your
+                                            satisfaction and happiness, our ultimate goal is encapsulated in the core
+                                            message of ‘Love Yourself’.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Footer Column-->
+                            <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+                                <div class="footer-widget links-widget">
+                                    <h2>Hairs</h2>
+                                    <ul class="footer-list">
+                                        <li><a href="#">Hair Transplant</a></li>
+                                        <li><a href="#">Male Pattern Baldness</a></li>
+                                        <li><a href="#">Microblading Eyebrow</a></li>
+                                        <li><a href="#">Ozone Therapy for Hair</a></li>
+                                    </ul>
+
+                                    <h2>Concerns</h2>
+                                    <ul class="footer-list">
+                                        <li><a href="#">Cellulite Treatment</a></li>
+                                        <li><a href="#">Birthmark</a></li>
+                                        <li><a href="#">Tattoo Removal</a></li>
+                                        <li><a href="#">Ulthera</a></li>
+                                        <li><a href="#">Ulthera</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Column-->
+                    <div class="big-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="row clearfix">
+
+                            <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+                                <div class="footer-widget links-widget">
+                                    <h2>Quick Links</h2>
+                                    <ul class="footer-list">
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="#">Client Testimonials</a></li>
+                                        <li><a href="#">Media</a></li>
+                                        <li><a href="#">News</a></li>
+                                        <li><a href="#">Blogs</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Shipping And Delivery</a></li>
+                                        <li><a href="#">Cancellation And Refund</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+
+                            <!--Footer Column-->
+                            <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                                <div class="footer-widget info-widget">
+                                    <h2>Contact Info</h2>
+                                    <ul class="info-list">
+                                        <li>R-27, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048</li>
+                                        <li><strong>Phone :</strong><a style="color: #fff; padding-left: 5px;"
+                                                href="tel:+919637866666">9637866666</a></li>
+                                        <li><strong>Email :</strong><a style="color: #fff; padding-left: 5px;"
+                                                href="mailto:care@drharorswellness.com">care@drharorswellness.com</a>
+                                        </li>
+                                    </ul>
+
+                                    <!-- Social Links -->
+                                    <ul class="social-links">
+                                        <li class="google"><a href="#"><span class="fab fa-google-plus-g"></span></a>
+                                        </li>
+                                        <li class="facebook"><a href="#"><span class="fab fa-facebook-f"></span></a>
+                                        </li>
+                                        <li class="instagram"><a href="#"><span class="fab fa-instagram"></span></a>
+                                        </li>
+                                        <li class="twitter"><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.7144388946726!2d77.2378353150807!3d28.548301782451077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3200839f06d%3A0x140fb85a11aaa71e!2sDr.%20Haror%E2%80%99s%20Wellness%20%7C%20Skin%20Specialist%2C%20Hair%20Transplant%20Surgeon%20%7C%20Best%20Dermatologist%20Doctor%20in%20Delhi%20NCR!5e0!3m2!1sen!2sin!4v1688034477605!5m2!1sen!2sin"
+                            width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row clearfix">
+
+                    <div class="column col-md-12 col-sm-12">
+                        <div class="copyright" style="color: #FFF; text-align: center;"> &copy; 2024 Dr. Haror’s
+                            Wellness. All rights reserved</div>
+                    </div>
+                    <!-- <div class="column col-lg-6 col-md-12 col-sm-12">
+                        <ul class="footer-nav">
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
 
 
 
 
+    <!-- footer section and -->
 
     <script src="./js/script.js"></script>
 
