@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: myfont;
-  src: url(/font.ttf);
+  src: url(../font.ttf);
 }
 
 body {
@@ -351,7 +351,7 @@ nav ul li a:hover {
 .service-box-inner{
   min-height: 300px;
   width: 100%;
-  background-image: url(/images/service1.png);
+  background-image: url(../images/service1.png);
   background-repeat: no-repeat;
   
 }
