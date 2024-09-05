@@ -35,24 +35,41 @@
         font-size: 14px;
     }
 
-    
-    .result-speaks h2{
+
+    .result-speaks h2 {
         font-size: 25.5px;
     }
+
     .h-six {
         font-size: 23px;
         line-height: 25px;
     }
-    .h-three{
+
+    .h-three {
         font-size: 25px;
     }
 
-    .size-res img{
+    .size-res img {
         width: 75% !important;
     }
 
-    .after-slider{
+    .after-slider {
         padding: 0 30px 60px 30px !important;
+    }
+    .hrors-red-h2{
+        font-size: 30px;
+    }
+    .outer-box{
+        padding: 10px 10px;
+    }
+    .background-image{
+        padding: 60px 10px;
+    }
+    /* .padding-top{
+        padding-top: 60px;
+    } */
+    .inner-box img{
+        width: 50%;
     }
 
 }
@@ -78,15 +95,15 @@
         font-size: 10px;
     }
 
-    .text{
+    .text {
         padding: 0;
     }
 
-    .p-class{
+    .p-class {
         padding-right: 0;
     }
-    
-    .button{
+
+    .button {
         margin-top: 20px;
     }
 
@@ -134,3 +151,16 @@
         font-size: 12.5px;
     }
 }
+
+
+@media screen and (max-width: 997px) and (min-width: 768px) {
+    .responsive-padding {
+        padding: 0 70px;
+    }
+}
+
+ @media (max-width: 350px) {
+    .service-box-h3{
+        transform: translateY(140px);
+    } 
+} 
