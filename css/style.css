@@ -686,7 +686,7 @@ section {
 
 /* doctor section start here */
 
-.background-image {
+.background-image-child {
   background-image: url(../images/hnew-background.png);
   background-repeat: no-repeat;
   background-position: center;

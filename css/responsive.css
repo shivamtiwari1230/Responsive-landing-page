@@ -54,7 +54,7 @@
     }
 
     .after-slider {
-        padding: 0 30px 60px 30px !important;
+        padding: 0 10px 60px 10px !important;
     }
     .hrors-red-h2{
         font-size: 30px;
@@ -63,7 +63,7 @@
         padding: 10px 10px;
     }
     .background-image{
-        padding: 60px 10px;
+        padding: 0px 10px;
     }
     /* .padding-top{
         padding-top: 60px;
